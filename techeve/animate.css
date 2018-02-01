@@ -1,0 +1,35 @@
+﻿@keyframes animatedBackground {
+			from { background-position: 0 0; }
+			to { background-position: 100% 0; }
+		}
+		@-webkit-keyframes animatedBackground {
+			from { background-position: 0 0; }
+			to { background-position: 100% 0; }
+		}
+		@-ms-keyframes animatedBackground {
+			from { background-position: 0 0; }
+			to { background-position: 100% 0; }
+		}
+		@-moz-keyframes animatedBackground {
+			from { background-position: 0 0; }
+			to { background-position: 100% 0; }
+		}
+
+        html
+        {
+             background-image:url(img/content_bg2.jpg);
+            
+        }
+	body	
+	{
+	   
+	     background-image:url(img/BD2.png);
+	     background-position: 0px 0px;
+		 background-repeat: repeat;
+		 animation:animatedBackground linear 5s infinite;
+		 -ms-animation: animatedBackground linear  5s infinite;
+		 -moz-animation: animatedBackground  linear 5s infinite;
+		 -webkit-animation: animatedBackground  linear 5s infinite;
+		 background-size :cover auto;
+			 
+		} 

@@ -1,0 +1,81 @@
+﻿body
+{
+    font-family:Arial;
+}
+
+#header
+{
+   position: relative;
+	margin: 0 auto;
+	min-height: 120px;
+	width: 100%;
+}
+
+#content
+{
+       
+}
+#info
+{
+  
+    width: 100%;
+  }
+#vertical_menu
+{
+    float: left;
+    width: 27%;    
+}
+#footer
+{    
+    width: 100%;
+     
+}
+#parent
+{
+    max-width:1024px;
+  margin-left:12%;
+  padding:0;
+}
+
+#subscribe
+{
+    float:right;
+}
+
+.table1
+{
+    margin-top: 5px;
+}
+.table1 td
+{
+    padding-left: 8px;
+    vertical-align: top;
+}
+
+.evebanner
+    {
+     z-index : 1000;
+     width:30%;
+     margin-left:35%;
+    }
+   
+.evelogo
+    {
+     z-index : 1000;
+     width:30%;
+     float:left;
+    }
+	.banner1
+    {
+    z-index : 1000;
+	margin: 0 auto;
+	padding: 0 1.25em;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 8%;
+	left: 15%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+    }
+    
